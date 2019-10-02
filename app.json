@@ -1,7 +1,8 @@
 {
   "expo": {
     "name": "Recipe-App",
-    "slug": "rn-3",
+    "slug": "recipe-app",
+    "owner": "dineshtd",
     "privacy": "public",
     "sdkVersion": "34.0.0",
     "platforms": [
@@ -9,7 +10,9 @@
       "android",
       "web"
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
+    "description": "A simple Recipe App with filters and favorites.",
+    "githubUrl": "https://github.com/DineshTdd/Recipe-App-RN",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -25,6 +28,9 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.td.recipeapp"
     }
   }
 }
